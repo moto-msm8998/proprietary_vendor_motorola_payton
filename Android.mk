@@ -6,4 +6,18 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),payton)
 
+$(call add-radio-file-sha1-checked,radio/bluetooth.img,d594c66e7a411840dce727ec4ca2e8f5cc0887f3)
+$(call add-radio-file-sha1-checked,radio/modem.img,e95e4d60ffbb859acccefd032cc79694891a16ce)
+$(call add-radio-file-sha1-checked,radio/abl.img,f408faec1510bf74ca821eb0f643659403676a9d)
+$(call add-radio-file-sha1-checked,radio/devcfg.img,ab71c47055c78dede2155a01c3a1e05c4071313b)
+$(call add-radio-file-sha1-checked,radio/dsp.img,81eebc7dc33988c3e99e66c91de592aefc448b2c)
+$(call add-radio-file-sha1-checked,radio/fsg.img,7a2ee3e3c24f592bd5c35f5de88bd5a226503ae0)
+$(call add-radio-file-sha1-checked,radio/hyp.img,29282a34573c793187d572cad9e0ff81e8ca6492)
+$(call add-radio-file-sha1-checked,radio/keymaster.img,9f861102776bc1512ced5e11f9fdddf3fa9ec8cd)
+$(call add-radio-file-sha1-checked,radio/logo.img,89c644705b1d50b78ab76a6cb5c9d4df141403a0)
+$(call add-radio-file-sha1-checked,radio/prov.img,13fdc6824be130f4850cf0516fe4d4bcdbeb76f8)
+$(call add-radio-file-sha1-checked,radio/storsec.img,74de349402f57949072665cd4652d70fac3ca7e6)
+$(call add-radio-file-sha1-checked,radio/tz.img,3038d5a61ba1bf9f08d41fb1df5b15153a1cd226)
+$(call add-radio-file-sha1-checked,radio/xbl.img,9d3b29ac0a88ad07d38fcb9b65cb8231050ec88d)
+
 endif
