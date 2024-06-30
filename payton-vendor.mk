@@ -526,5 +526,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MotoSignatureApp \
     MotCamera2 \
-    ims \
     com.motorola.motosignature
